@@ -21,7 +21,7 @@ const StyledPageWrapper = styled.div`
 const StyledForeground = styled.div`
   display: grid;
   grid-template-columns: 1fr 3fr;
-  background-color: #e2bbe8;
+  background-color: #a7fae7;
   height: 90vh;
   width: 95vw;
 `;
