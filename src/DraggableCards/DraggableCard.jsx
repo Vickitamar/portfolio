@@ -10,13 +10,18 @@ type Props = {
 };
 
 const StyledMetricsCard = styled.div`
-  position: relative;
-  line-height: normal;
   display: flex;
   flex-direction: column;
-  opacity: ${(props) => (props.isDragging ? 0 : 1)};
+  justify-content: center;
+  align-items: center;
   color: black;
   margin: 5px;
+  border: 20px solid #222;
+  border-radius: 10%;
+  height: 175px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 40px;
 `;
 
 const DraggableCard = (props: Props) => {

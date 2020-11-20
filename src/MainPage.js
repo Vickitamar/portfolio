@@ -30,7 +30,7 @@ const MainPage = () => {
         <StyledNameHeader>
           Hello, my name is
           <br />
-          Clara.
+          Vicki.
         </StyledNameHeader>
       </StyledForeground>
     </StyledBackground>
