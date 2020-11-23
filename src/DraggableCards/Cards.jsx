@@ -8,6 +8,8 @@ const StyledCardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 200px));
   column-gap: 10px;
+  align-self: center;
+  justify-self: center;
 `;
 
 const StyledPageWrapper = styled.div`
@@ -29,7 +31,8 @@ const StyledForeground = styled.div`
 const StyledHeader = styled.h1`
   color: #222;
   font-size: 50px;
-  text-decoration: underline;
+  margin-left: 1em;
+  font-size: 6em;
 `;
 
 const Cards = () => {
@@ -49,7 +52,7 @@ const Cards = () => {
   return (
     <StyledPageWrapper>
       <StyledForeground>
-        <StyledHeader>Skills</StyledHeader>
+        <StyledHeader>Drag</StyledHeader>
         <StyledCardContainer>
           {cardList.map((card, index) => {
             return (
