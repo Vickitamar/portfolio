@@ -14,7 +14,7 @@ const StyledStage = styled.div`
     border: 2px solid black;
     width: 100%;
     max-width: 25vw;
-    background: white;
+    background: #222;
 `;
 
 const Stage = ({ stage }) => (

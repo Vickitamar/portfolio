@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 
-export const StyledTetrisWrapper= styled.div`
-  width: 100vw;
+export const StyledBackground = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A7FAE7; 
   height: 100vh;
-  background-color: black;
+`;
+
+export const StyledTetrisWrapper= styled.div`
+  height: 90vh;
+  width: 95vw;
+  background-color: #222;
 
 `;
 
