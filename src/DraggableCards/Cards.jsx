@@ -30,7 +30,6 @@ const StyledForeground = styled.div`
 
 const StyledHeader = styled.h1`
   color: #222;
-  font-size: 50px;
   margin-left: 1em;
   font-size: 6em;
 `;
